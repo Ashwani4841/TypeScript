@@ -12,3 +12,11 @@ function checkAge(userAge: number) {
 }
 
 console.log(checkAge(age));
+
+let name: string = "Ashwani";
+
+function greet(user: string) {
+  return "Hello " + user;
+}
+
+console.log(greet(name));
