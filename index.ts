@@ -30,3 +30,7 @@ let userData :{
 }
 console.log(userData)
 console.log(userData.name)
+
+function add(a: number, b: number): number {
+  return a + b;
+}
