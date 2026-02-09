@@ -34,3 +34,13 @@ console.log(userData.name)
 function add(a: number, b: number): number {
   return a + b;
 }
+
+function createUser(name:string, age:number){
+  return{
+    name:name,
+    age:age
+  }
+}
+
+const createdUser = createUser("Ishan", 24)
+console.log(createdUser)
