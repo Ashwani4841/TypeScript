@@ -50,3 +50,11 @@ function printId(id: number | string){
 }
 
 printId(10)
+
+function printId1(id: number | string) {
+  if (typeof id === "string") {
+    console.log(id.toUpperCase())
+  } else {
+    console.log(id.toFixed(2))
+  }
+}
