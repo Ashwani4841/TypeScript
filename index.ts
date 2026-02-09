@@ -44,3 +44,9 @@ function createUser(name:string, age:number){
 
 const createdUser = createUser("Ishan", 24)
 console.log(createdUser)
+
+function printId(id: number | string){
+  console.log("Your id is", id)
+}
+
+printId(10)
