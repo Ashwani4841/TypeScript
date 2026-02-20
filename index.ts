@@ -75,3 +75,12 @@ class Person {
 
 const person1 = new Person("Alice", 25);
 console.log(person1.introduce());
+
+class Person3 {
+    constructor(public name: string, public age: number) {
+        // Initialize properties
+    }
+}
+
+const john = new Person('Uday', 20);
+console.log(`Name: ${john.name}, Age: ${john.age}`);
