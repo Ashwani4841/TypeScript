@@ -84,3 +84,21 @@ class Person3 {
 
 const john = new Person('Uday', 20);
 console.log(`Name: ${john.name}, Age: ${john.age}`);
+
+class Person4 {
+    name: string;
+    age: number;
+
+    constructor(name: string, age: number) {
+        this.name = name;
+        this.age = age;
+    }
+
+    greet() {
+        console.log(`Hello, I'm ${this.name} and I'm ${this.age} years old.`);
+    }
+}
+
+const person = new Person('Rahul', 22);
+console.log(person.name); // Accessing attribute
+// person.greet();           // Accessing function
