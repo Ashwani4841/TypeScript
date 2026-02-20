@@ -102,3 +102,25 @@ class Person4 {
 const person = new Person('Rahul', 22);
 console.log(person.name); // Accessing attribute
 // person.greet();           // Accessing function
+
+class BankAccount {
+  accountHolder: string;
+  balance: number;
+
+  constructor(accountHolder: string, initialBalance: number) {
+    this.accountHolder = accountHolder;
+    this.balance = initialBalance;
+  }
+
+  deposit(amount: number): void {
+    this.balance += amount;
+  }
+
+  getBalance(): string {
+    return `The balance for ${this.accountHolder} is $${this.balance}`;
+  }
+}
+
+const account = new BankAccount("John Doe", 500);
+account.deposit(200);
+console.log(account.getBalance());
