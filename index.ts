@@ -165,3 +165,8 @@ const product: Product = {
   name: "Laptop",
   price: 55000
 };
+
+type Props = {
+  title: string;
+};
+
