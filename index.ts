@@ -130,3 +130,17 @@ let age: number = 22;
 let isDeveloper: boolean = true;
 
 console.log(username, age, isDeveloper);
+
+type User = {
+  name: string;
+  age: number;
+  isActive: boolean;
+};
+
+let user: User = {
+  name: "Ashwani",
+  age: 22,
+  isActive: true
+};
+
+console.log(user.name);
