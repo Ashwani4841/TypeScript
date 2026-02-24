@@ -153,3 +153,15 @@ function login(email: string, password: string): boolean {
 }
 
 console.log(login("admin@gmail.com", "1234")); // true
+
+interface Product {
+  id: number;
+  name: string;
+  price: number;
+}
+
+const product: Product = {
+  id: 1,
+  name: "Laptop",
+  price: 55000
+};
