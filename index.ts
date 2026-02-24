@@ -124,3 +124,9 @@ class BankAccount {
 const account = new BankAccount("John Doe", 500);
 account.deposit(200);
 console.log(account.getBalance());
+
+let username: string = "Ashwani";
+let age: number = 22;
+let isDeveloper: boolean = true;
+
+console.log(username, age, isDeveloper);
