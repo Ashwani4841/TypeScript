@@ -144,3 +144,12 @@ let user: User = {
 };
 
 console.log(user.name);
+
+function login(email: string, password: string): boolean {
+  if (email === "admin@gmail.com" && password === "1234") {
+    return true;
+  }
+  return false;
+}
+
+console.log(login("admin@gmail.com", "1234")); // true
