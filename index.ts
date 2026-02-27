@@ -170,9 +170,9 @@ type Props = {
   title: string;
 };
 
-function add(a: number, b: number): number {
-  return a + b;
-}
+// function add(a: number, b: number): number {
+//   return a + b;
+// }
 
 console.log(add(10, 20)); // ✅ 30
 // console.log(add("10", 20)); ❌ Error
@@ -193,3 +193,14 @@ class Person5 {
 
 const person5 = new Person5("Alice", 25);
 console.log(person5.introduce());
+
+let day: number = 0;
+if (day <= 0 || day > 7) {
+    day = Number.NaN;
+    console.log("Day is " + day);
+} else {
+    console.log("Value Accepted..");
+}
+
+
+
