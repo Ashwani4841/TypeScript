@@ -176,3 +176,20 @@ function add(a: number, b: number): number {
 
 console.log(add(10, 20)); // ✅ 30
 // console.log(add("10", 20)); ❌ Error
+
+class Person5 {
+  name: string;
+  age: number;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+
+  introduce(): string {
+    return `Hi, my name is ${this.name} and I am ${this.age} years old.`;
+  }
+}
+
+const person5 = new Person5("Alice", 25);
+console.log(person5.introduce());
