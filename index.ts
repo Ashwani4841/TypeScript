@@ -207,5 +207,11 @@ let num1: number = 2525.30;
 let val: string = num1.toExponential();
 console.log(val);
 
+// The toFixed()
+let num3: number = 237.134;
+console.log("num3.toFixed() is " + num3.toFixed());
+console.log("num3.toFixed(2) is " + num3.toFixed(2));
+console.log("num3.toFixed(6) is " + num3.toFixed(6));
+
 
 
