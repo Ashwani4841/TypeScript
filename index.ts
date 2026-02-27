@@ -202,5 +202,10 @@ if (day <= 0 || day > 7) {
     console.log("Value Accepted..");
 }
 
+// The toExponential() 
+let num1: number = 2525.30;
+let val: string = num1.toExponential();
+console.log(val);
+
 
 
