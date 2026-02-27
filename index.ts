@@ -213,5 +213,11 @@ console.log("num3.toFixed() is " + num3.toFixed());
 console.log("num3.toFixed(2) is " + num3.toFixed(2));
 console.log("num3.toFixed(6) is " + num3.toFixed(6));
 
+// The toPrecision()
+let num: Number = new Number(5.7645326);
+console.log(num.toPrecision());
+console.log(num.toPrecision(1));
+console.log(num.toPrecision(2));
+
 
 
