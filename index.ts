@@ -218,6 +218,11 @@ let num: Number = new Number(5.7645326);
 console.log(num.toPrecision());
 console.log(num.toPrecision(1));
 console.log(num.toPrecision(2));
+// The toString()
+let num: Number = new Number(10);
+console.log(num.toString());
+console.log(num.toString(2));
+console.log(num.toString(8));
 
 
 
