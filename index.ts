@@ -252,6 +252,16 @@ for (let key in obj) {
 let obj = { name: "Sourav" };
 console.log(typeof obj === "object" && obj !== null);
 
+// Object literal
+const obj1 = { key: "value" };
+
+// Object constructor
+const obj2 = new Object();
+obj2.key = "value";
+
+console.log(obj1);
+console.log(obj2);
+
 
 
 
