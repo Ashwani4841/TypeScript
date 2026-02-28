@@ -219,10 +219,33 @@ console.log(num.toPrecision());
 console.log(num.toPrecision(1));
 console.log(num.toPrecision(2));
 // The toString()
-let num: Number = new Number(10);
-console.log(num.toString());
-console.log(num.toString(2));
-console.log(num.toString(8));
+// let num1: Number = new Number(10);
+console.log(num1.toString());
+console.log(num1.toString(2));
+console.log(num1.toString(8));
+
+// 1. Primitive Types
+// let age: number = 25;
+// let name: string = "Alice";
+let isActive: boolean = true;
+let emptyValue: null = null;
+let unassignedValue: undefined = undefined;
+
+// 2. Special Types
+let dynamicValue: any = 10;
+dynamicValue = "Hello";
+
+let unknownValue: unknown = "Hello";
+
+function logMessage(): void {
+    console.log("This is a log message.");
+}
+
+function throwError(message: string): never {
+    throw new Error(message);
+}
+
+
 
 
 
