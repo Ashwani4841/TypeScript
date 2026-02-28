@@ -261,6 +261,8 @@ obj2.key = "value";
 
 console.log(obj1);
 console.log(obj2);
+let obj = { name: "Sourav", age: 23 };
+console.log(Object.keys(obj).length);
 
 
 
