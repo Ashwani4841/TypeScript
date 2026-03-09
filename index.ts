@@ -245,24 +245,24 @@ function throwError(message: string): never {
     throw new Error(message);
 }
 
-let obj = { name: "Sourav", age: 23 };
-for (let key in obj) {
-    console.log(key + ": " + obj[key]);
-}
-let obj = { name: "Sourav" };
-console.log(typeof obj === "object" && obj !== null);
+// let obj = { name: "Sourav", age: 23 };
+// for (let key in obj) {
+    // console.log(key + ": " + obj[key]);
+// }
+// let obj = { name: "Sourav" };
+// console.log(typeof obj === "object" && obj !== null);
 
 // Object literal
 const obj1 = { key: "value" };
 
 // Object constructor
 const obj2 = new Object();
-obj2.key = "value";
+// obj2.key = "value";
 
 console.log(obj1);
 console.log(obj2);
-let obj = { name: "Sourav", age: 23 };
-console.log(Object.keys(obj).length);
+// let obj = { name: "Sourav", age: 23 };
+// console.log(Object.keys(obj).length);
 
 class Car { 
    //field 
