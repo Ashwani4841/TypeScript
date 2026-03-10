@@ -317,6 +317,21 @@ console.log("Reading attribute value Engine as :  "+obj.engine)
 //access the function
 obj.disp()
 
+// 2.1 Optionl & Default param
+const sum = (
+  a: number,
+  b: number,
+  c?: string, // Optional param
+  d: number = 0 // Default param
+): number | string => {
+  let result: string | number;
+  result = a + b + d;
+  if (c) {
+    result = a + b + c;
+  }
+  return result;
+};
+
 
 
 
