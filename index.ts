@@ -345,6 +345,7 @@ const subtract = (num1: number = 10, num2?: number) => {
   }
   return num1;
 };
+subtract(undefined, 5); // To avoid sending param use undefined
 
 
 
