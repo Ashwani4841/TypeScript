@@ -332,6 +332,13 @@ const sum = (
   return result;
 };
 
+// 2.2 Function Signature
+type mathFunc = (a: number, b: number) => number;
+
+const multiply: mathFunc = (num1, num2) => {
+  return num1 * num2;
+};
+
 
 
 
