@@ -347,6 +347,11 @@ const subtract = (num1: number = 10, num2?: number) => {
 };
 subtract(undefined, 5); // To avoid sending param use undefined
 
+// 2.3 Rest param
+const sumAll = (a: number, ...numbers: number[]): number => {
+  return a + numbers.reduce((prev, curr) => prev + curr);
+};
+
 
 
 
