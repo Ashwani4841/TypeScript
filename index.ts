@@ -339,6 +339,13 @@ const multiply: mathFunc = (num1, num2) => {
   return num1 * num2;
 };
 
+const subtract = (num1: number = 10, num2?: number) => {
+  if (typeof num2 !== "undefined") {
+    return num1 - num2;
+  }
+  return num1;
+};
+
 
 
 
