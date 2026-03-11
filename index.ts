@@ -352,6 +352,12 @@ const sumAll = (a: number, ...numbers: number[]): number => {
   return a + numbers.reduce((prev, curr) => prev + curr);
 };
 
+// 2.4 'never' return type
+const errorMsg = (msg: string): never => {
+  // By default return type is - never
+  throw new Error(msg);
+};
+
 
 
 
