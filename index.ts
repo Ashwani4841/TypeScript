@@ -358,6 +358,10 @@ const errorMsg = (msg: string): never => {
   throw new Error(msg);
 };
 
+const isNumber = (a: any): boolean => {
+  return typeof a === "number" ? true : false;
+};
+
 
 
 
