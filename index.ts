@@ -362,6 +362,13 @@ const isNumber = (a: any): boolean => {
   return typeof a === "number" ? true : false;
 };
 
+const showStr = (a: number | string): string => {
+  if (typeof a === "number") return "Number";
+  if (typeof a === "string") return "String";
+  return errorMsg("This should not happen");
+  // 'never' return type preventing to compile error as this func return type is 'string'
+};
+
 
 
 
