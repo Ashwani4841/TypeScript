@@ -369,6 +369,13 @@ const showStr = (a: number | string): string => {
   // 'never' return type preventing to compile error as this func return type is 'string'
 };
 
+const anyTypeString = [];
+const anyTypeString2: any[] = [];
+
+const stringArr = ["Hello", "how", "are", "you"];
+const stringArr2: string[] = ["Hello", "how", "are", "you"];
+// X - stringArr.push(34)
+
 
 
 
