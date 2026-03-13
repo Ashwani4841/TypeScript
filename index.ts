@@ -386,6 +386,10 @@ const mixedData2: (string | boolean | number)[] = ["bye", true, 77];
 const anyTypeString = [];
 const anyTypeString2: any[] = [];
 
+const stringArr = ["Hello", "how", "are", "you"];
+const stringArr2: string[] = ["Hello", "how", "are", "you"];
+// X - stringArr.push(34)
+
 
 
 
