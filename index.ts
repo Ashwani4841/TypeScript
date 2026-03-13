@@ -394,6 +394,9 @@ const strAndNum = ["Hi", 143];
 const strAndNum2: (string | number)[] = ["Hi", 143];
 // X - strAndNum2[0](boolean)
 
+const mixedData = ["bye", true, 77];
+const mixedData2: (string | boolean | number)[] = ["bye", true, 77];
+
 
 
 
