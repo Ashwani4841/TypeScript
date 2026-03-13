@@ -383,6 +383,9 @@ const strAndNum2: (string | number)[] = ["Hi", 143];
 const mixedData = ["bye", true, 77];
 const mixedData2: (string | boolean | number)[] = ["bye", true, 77];
 
+const anyTypeString = [];
+const anyTypeString2: any[] = [];
+
 
 
 
