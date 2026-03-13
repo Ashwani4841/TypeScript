@@ -390,6 +390,10 @@ const stringArr = ["Hello", "how", "are", "you"];
 const stringArr2: string[] = ["Hello", "how", "are", "you"];
 // X - stringArr.push(34)
 
+const strAndNum = ["Hi", 143];
+const strAndNum2: (string | number)[] = ["Hi", 143];
+// X - strAndNum2[0](boolean)
+
 
 
 
